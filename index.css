@@ -1,0 +1,53 @@
+body {
+    margin: 50px;
+    color: white;
+    background-color: #1F2937
+}
+
+.hl {
+    color: #4ADF86
+}
+
+.passBtn {
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    
+    color: white;
+    background-color: #10B981;
+    cursor: pointer;
+    
+    margin: 25px 0 25px 0;
+    transition: 0.2s ease;
+}
+.passBtn:hover {
+    background-color: #16936A;
+}
+.passBtn:focus {
+    outline: none;
+}
+hr {
+    border: none;
+    height: 2px;
+    margin-bottom: 25px;
+    background-color: #2F3E53;
+}
+.pass-container {
+    display: flex;
+    justify-content: space-between;
+}
+#passBtnOne, #passBtnTwo {
+    width: 48%;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    background-color: #273549;
+    text-align: center;
+    color: #55F991;
+    cursor: pointer;
+    transition: 0.2s ease;
+    transform: none;
+}
+#passBtnOne:hover, #passBtnTwo:hover {
+    background-color: #334762;
+}
